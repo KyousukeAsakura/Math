@@ -8,7 +8,7 @@ def isPrime(N):
     else:
         i = 3
         while (i <= math.sqrt(N)):
-            print(i)
+            #print(i)
             if N % i == 0:
                 return False
             i = i + 2
